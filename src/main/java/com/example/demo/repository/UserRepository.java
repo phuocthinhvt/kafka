@@ -9,7 +9,4 @@ import org.springframework.stereotype.Repository;
 public interface UserRepository extends PagingAndSortingRepository<User, Long> {
     // Không cần phải viết truy vấn thủ công, Spring Data JPA sẽ tự động xử lý.
 }
-//public interface UserRepository extends JpaRepository<User, Long>{
-//
-//}
 

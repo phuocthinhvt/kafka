@@ -30,9 +30,5 @@ public class UserService {
         return userRepository.findAll(pageable);
         // Trả về một Page chứa dữ liệu đã phân trang
     }
-//    public List<User> getUsers() {
-//        return userRepository.findAll();
-//        // Trả về một Page chứa dữ liệu đã phân trang
-//    }
 }
 

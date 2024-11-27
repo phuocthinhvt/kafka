@@ -26,9 +26,5 @@ public class UserController {
 
         return userService.getUsers(page, size, sortField, sortDirection);
     }
-//    public List<User> getUsers() { // Sắp xếp theo thứ tự tăng dần (asc)
-//
-//        return userService.getUsers();
-//    }
 }
 
